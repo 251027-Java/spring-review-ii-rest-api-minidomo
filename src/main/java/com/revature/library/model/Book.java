@@ -28,7 +28,6 @@ public class Book {
     @Column(unique = true)
     private String isbn;
 
-    @Column
     private boolean available = true;
     private LocalDateTime createdAt = LocalDateTime.now();
 
